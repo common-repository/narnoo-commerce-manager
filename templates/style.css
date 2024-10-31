@@ -1,0 +1,55 @@
+button span.ncm_display_loader .ncm_fa-spin {
+	left: 41px;
+}
+
+#check_my_price_now_popup {
+    color: black;
+}
+
+.form-group small{
+	display: inline;
+}
+
+.modal-body.check_my_price_now_content {
+    margin: 0;
+    padding: 0;
+}
+
+.ncm_main_container_loader .panel-collapse.collapse.in {
+	color: #333;
+}
+
+.ncm_main_content .row {
+	margin-left: 0px !important;
+}
+
+.ncm_cart_shop_btns a,
+.ncm_cart_shop_btns input {
+	margin-top: 0px !important;
+}
+
+.narnoo_product {
+	width: 100%;
+	margin: 0px !important;
+}
+
+.narnoo_product .ncm-tabs{
+	margin-top: 10px;
+}
+
+.price small{
+	margin-top: 0px;
+}
+
+p.ncm-date{
+	margin-top: 10px;
+	margin-bottom: 0px;
+}
+
+#have_a_question .modal-footer button.btn {
+	margin: 0px;
+}
+
+.ncm_checkout_fields label{
+	display: block !important;
+}

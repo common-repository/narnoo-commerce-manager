@@ -1,0 +1,273 @@
+
+.cmrc-table table.form-table input[type=email], 
+.cmrc-table table.form-table input[type=number], 
+.cmrc-table table.form-table input[type=text], 
+.cmrc-table table.form-table input[type=password], 
+.cmrc-table table.form-table select{
+	min-width: 400px;
+	width: 400px;
+    margin: 0;
+    padding: 5px;
+    height: 30px;
+}
+
+.cmrc-table table.form-table input[type=email].extra_small, 
+.cmrc-table table.form-table input[type=number].extra_small, 
+.cmrc-table table.form-table input[type=text].extra_small, 
+.cmrc-table table.form-table input[type=password].extra_small, 
+.cmrc-table table.form-table select.extra_small{
+    min-width: 100px;
+    width: 100px;
+}
+
+.cmrc-table table.form-table textarea,
+.cmrc-table table.form-table select[multiple=multiple]{
+    min-width: 400px;
+    width: 400px;
+    margin: 0;
+    padding: 5px;
+    height: 90px;
+}
+
+.ncm_settings_subsubsub { 
+	width:  100%;
+    margin: 8px 0 16px 0;
+}
+
+.ncm_settings_subsubsub li {
+	padding: 0px 10px;
+    border-right: 1px solid;
+}
+
+.ncm_settings_subsubsub li:last-child {
+	padding: 0px 10px;
+    border-right: none;
+}
+
+.ncm_settings_subsubsub a {
+	line-height: 0;
+	padding: 0px;
+}
+
+.ncm_emails td.ncm-email-settings-table-status {
+    width: 25px;
+}
+
+a.ncm_template_copy_button, a.ncm_template_toggle_editor{
+    margin: 0px 5px !important;
+}
+
+textarea.ncm_template_textarea{
+    width: 100% !important;
+    height: 350px !important;
+}
+
+.ncm_template_editor {
+    margin-top: 10px;
+    display: none;
+}
+
+.ncm_template_content {
+    width: 70%;
+    display: inline-block;
+    margin-right: 10px;
+}
+
+table.ncm_gateways td:first-child {
+    display: table-cell;
+    color:  #555;
+    cursor: move;
+    width: 1%;
+}
+
+/**** css for standart tax rates Start ****/
+
+.ncm_tax_rates input[type=text], 
+.ncm_tax_rates input[type=number] {
+    width: 100%;
+    border: none;
+    box-shadow: none;
+}
+
+.ncm_tax_rates td {
+    box-shadow: inset 0 1px 2px rgba(0,0,0,.07);
+    border-right: 1px solid #dfdfdf;
+    border-bottom: 1px solid #dfdfdf;
+}
+
+table.ncm_tax_rates tr:last-child td {
+    border-bottom: 0;
+}
+
+table.ncm_tax_rates tbody td {
+    vertical-align: middle;
+    padding: 4px 5px;
+}
+
+table.ncm_tax_rates tfoot tr th, 
+table.ncm_tax_rates thead tr td, 
+table.ncm_tax_rates thead tr th {
+    padding: 11px;
+}
+
+table.ncm_tax_rates .export, 
+table.ncm_tax_rates .import {
+    float: right;
+    margin-right: 0;
+    margin-left: 5px;
+}
+
+.select_row input,
+.select_row {
+    background-color: #FfF9F9;
+}
+
+tr.no_tax_row td {
+    text-align: center;
+    height: 30px;
+}
+
+/**** css for standart tax rates End ****/
+
+/**** css for Order page Start ****/
+.wp-core-ui .button.ncm_order_view {
+    margin: 0 4px 2px 0;
+}
+
+#order_data {
+    padding: 23px 24px 12px 24px;
+}
+
+#order_data h2{
+    margin: 0;
+    font-family: HelveticaNeue-Light,'Helvetica Neue Light','Helvetica Neue',sans-serif;
+    font-size: 21px;
+    font-weight: 400;
+    line-height: 1.2;
+    text-shadow: 1px 1px 1px #fff;
+    padding: 0;
+}
+
+#order_data .order_data_column .form-field label {
+    display: block;
+    padding: 0 0 3px;
+}
+
+#order_data .order_data_column {
+    width: 48%;
+    padding: 0 2% 0 0;
+    float: left;
+}
+
+#order_data .order_data_column .form-field .date-picker {
+    width: 50%;
+}
+
+#order_data .order_data_column .form-field .hour, #order_data .order_data_column .form-field .minute {
+    width: 3.5em;
+}
+
+#order_data .order_data_column select#ncm_order_status {
+    max-width: 100%;
+    width: 317px;
+}
+
+.order_actions {
+    margin: 0;
+    overflow: hidden;
+    zoom: 1;
+}
+
+#poststuff #ncm-order-actions .inside ul.order_actions li {
+    padding: 6px 10px;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+.order_actions li.wide {
+    width: auto;
+    float: none;
+    clear: both;
+    padding: 6px;
+    text-align: left;
+    overflow: hidden;
+}
+
+.order_actions li {
+    border-top: 1px solid #fff;
+    border-bottom: 1px solid #ddd;
+    padding: 6px 0;
+    margin: 0;
+    line-height: 1.6em;
+    float: left;
+    width: 50%;
+    text-align: center;
+}
+
+#poststuff #ncm-order-actions .inside ul.order_actions li:last-child {
+    border-bottom: 0;
+}
+
+.order_actions li#actions select {
+    width: 199px;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+    float: left;
+}
+
+.order_actions li #delete-action {
+    line-height: 25px;
+    vertical-align: middle;
+    text-align: left;
+    float: left;
+}
+
+.order_actions li .save_order {
+    float: right;
+}
+
+.table-outer-custom{
+    padding: 0px !important;
+    margin: 0px !important;
+}
+.table-bordered{
+    border-collapse: collapse !important;
+}
+.table-bordered>thead>tr>td, .table-bordered>thead>tr>th{
+    border-bottom-width: 1px;
+    border-top: 0px;
+    padding: 8px;
+}
+.table-bordered>thead>tr>td:first-child, .table-bordered>thead>tr>th:first-child{
+    border-left: none;
+}
+.table-bordered>thead>tr>td:last-child, .table-bordered>thead>tr>th:last-child{
+    border-right: none;
+}
+.table-bordered>tbody>tr>td, 
+.table-bordered>tbody>tr>th, 
+.table-bordered>tfoot>tr>td, 
+.table-bordered>tfoot>tr>th, 
+.table-bordered>thead>tr>td, 
+.table-bordered>thead>tr>th{
+    border: 1px solid #ddd;
+    padding: 8px;
+}
+.table-bordered>tbody>tr>td:first-child, 
+.table-bordered>tbody>tr>th:first-child, 
+.table-bordered>tfoot>tr>td:first-child, 
+.table-bordered>tfoot>tr>th:first-child, 
+.table-bordered>thead>tr>td:first-child, 
+.table-bordered>thead>tr>th:first-child{
+    border-left: none;
+}
+.table-bordered>tbody>tr>td:last-child, 
+.table-bordered>tbody>tr>th:last-child, 
+.table-bordered>tfoot>tr>td:last-child, 
+.table-bordered>tfoot>tr>th:last-child, 
+.table-bordered>thead>tr>td:last-child, 
+.table-bordered>thead>tr>th:last-child{
+    border-right: none;
+}
+
+/**** css for Order page End ****/

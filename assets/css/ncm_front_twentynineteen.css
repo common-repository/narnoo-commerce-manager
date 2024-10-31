@@ -1,0 +1,336 @@
+.narnoo_product .summary.entry-summary {
+
+    margin: 0 auto;
+
+    padding: 0;
+
+}
+
+
+
+.type-page .entry-content .ncm_main_content {
+
+    max-width: 100%;
+
+    width: 100%;
+
+}
+
+
+
+th.ncm-table__product-name {
+
+    padding: 0 !important;
+
+    font-size: 16px;
+
+}
+
+
+
+.ncm_img_wrapper {
+
+    height: 115px;position: relative; overflow:hidden;
+
+}
+
+
+
+.ncm_img_wrapper img{
+
+    position: absolute;
+
+    top:-100%; left:0; right: 0; bottom:-100%;
+
+    margin: auto;
+
+}
+
+
+
+.ncm_product_listing_link{
+
+    height: 55px;
+
+}
+
+
+
+.nrm-pagination{
+
+    width: 100%;
+
+    display: inline-block;
+
+    text-align: center;
+
+}
+
+
+
+.type-page .entry-content .ncm_main_content .table > thead > tr >th{
+
+	padding: 0 !important;
+
+	font-size: 16px;
+
+    text-align: center;
+
+    vertical-align: middle;
+
+    /*width: 12%; */
+
+    
+
+}
+
+
+
+.type-page .entry-content .ncm_main_content .table > thead > tr >th:nth-child(1) {
+
+    min-width: 90px;
+
+}
+
+
+
+.type-page .entry-content .ncm_main_content .ncm_cart_table tbody td:nth-child(2) {
+
+    min-width: 100px;
+
+}
+
+
+
+.type-page .entry-content .ncm_main_content .table > thead > tr >th:nth-child(7),
+
+.type-page .entry-content .ncm_main_content .table > thead > tr >th:nth-child(8) {
+
+    min-width: 150px;
+
+}
+
+
+
+
+
+.type-page .order_summary_table>tbody>tr>td:nth-child(1), .order_summary_table>thead>tr>th:nth-child(1),
+
+.type-page .order_summary_table>tbody>tr>td:nth-child(7), .order_summary_table>thead>tr>th:nth-child(7),
+
+.type-page .order_summary_table>tbody>tr>td:nth-child(8), .order_summary_table>thead>tr>th:nth-child(8){
+
+    width: 100px;
+
+    min-width: 100px;
+
+}
+
+
+
+.ncm_main_content .ncm_cart_table tbody td:nth-child(3), 
+
+.ncm_main_content .ncm_cart_table tbody td:nth-child(4), 
+
+.ncm_main_content .ncm_cart_table tbody td:nth-child(5), 
+
+.ncm_main_content .ncm_cart_table tbody td:nth-child(6), 
+
+.ncm_main_content .checkout_table_custom tbody td:nth-child(3), 
+
+.ncm_main_content .checkout_table_custom tbody td:nth-child(4), 
+
+.ncm_main_content .checkout_table_custom tbody td:nth-child(5), 
+
+.ncm_main_content .checkout_table_custom tbody td:nth-child(6), 
+
+.ncm_main_content .order_summary_table tbody td:nth-child(3), 
+
+.ncm_main_content .order_summary_table tbody td:nth-child(4), 
+
+.ncm_main_content .order_summary_table tbody td:nth-child(5), 
+
+.ncm_main_content .order_summary_table tbody td:nth-child(6) {
+
+    min-width: 166px;
+    word-break: break-word;
+
+}
+
+/*
+
+.type-page .entry-content .ncm_main_content .table > thead > tr >th:nth-child(2)
+
+{
+
+    width: 15%;
+
+}
+
+.type-page .entry-content .ncm_main_content .table > thead > tr >th:nth-child(3)
+
+{
+
+    width: 12%;
+
+}
+
+.type-page .entry-content .ncm_main_content .table > thead > tr >th:nth-child(4)
+
+{
+
+    width: 12%;
+
+}
+
+.type-page .entry-content .ncm_main_content .table > thead > tr >th:nth-child(5)
+
+{
+
+    width: 12%;
+
+}
+
+.type-page .entry-content .ncm_main_content .table > thead > tr >th:nth-child(6)
+
+{
+
+    width: 10%;
+
+}
+
+.type-page .entry-content .ncm_main_content .table > thead > tr >th:nth-child(7)
+
+{
+
+    width: 10%;
+
+}
+
+.type-page .entry-content .ncm_main_content .table > thead > tr >th:nth-child(8)
+
+{
+
+    width: 10%;
+
+} */
+
+
+
+.twentynineteen > h3 {
+
+    width: 80%;
+
+    display: inline-block;
+
+    margin: 0 10%;
+
+    padding: 15px;
+
+}
+
+
+
+.ncm_cart_shop_btns a.btn.btn-primary {
+
+    transition: background 150ms ease-in-out;
+
+    background: #0073aa;
+
+    border: none;
+
+    border-radius: 5px;
+
+    box-sizing: border-box;
+
+    color: #fff;
+
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen", "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue", sans-serif;
+
+    font-size: 0.88889em;
+
+    font-weight: 700;
+
+    line-height: 1.2;
+
+    outline: none;
+
+    padding: 0.76rem 1rem;
+
+    text-decoration: none;
+
+    vertical-align: bottom;
+
+}
+
+
+
+.ncm_cart_shop_btns a.btn.btn-primary:hover {
+
+    background: #111;
+
+    cursor: pointer;
+
+}
+
+.entry .entry-content a
+
+{
+
+    text-decoration: none !important;
+
+}
+
+.table-bordered>tbody>tr>td, .table-bordered>tbody>tr>th, .table-bordered>tfoot>tr>td, .table-bordered>tfoot>tr>th, .table-bordered>thead>tr>td, .table-bordered>thead>tr>th
+
+{
+
+    text-align: center;
+
+}
+
+.entry .entry-content .wp-block-separator, .entry .entry-content hr
+
+{
+
+    margin-left: 0px;
+
+    margin-top: 0px !important;
+
+}
+
+.order_summary_table>tbody>tr>td,.order_summary_table>thead>tr>th
+
+{
+
+    min-width: 166px;    
+
+}
+
+.order_summary_table table>thead>tr>th
+
+{
+
+    text-align: center;
+
+}
+
+#ncm_payment_form .inner-box label
+
+{
+
+    display: block !important;
+
+}
+
+
+
+@media only screen and (max-width: 600px) {
+
+    .ncm_cart_shop_btns a.btn.btn-primary {
+
+        margin-bottom: 10px;
+
+    }
+
+}

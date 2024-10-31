@@ -1,0 +1,168 @@
+.label-col,
+.ncm_cart_price_custom{
+	margin: 10px 0px;
+}
+.ncm_cart_shop_btns .btn{
+	margin: 10px 5px;
+}
+.entry-content{
+	word-wrap: normal;
+	padding: 0px 30px 50px !important;
+}
+.order_summary_table {
+	word-wrap: normal;
+	width: auto;
+}
+.entry-content h3{
+	margin-top: 15px !important;
+}
+.entry-title{
+	margin-bottom: 15px !important;
+}
+.entry-header{		
+	padding: 0px 25px !important;
+}
+.wrapper-form-custom input[type="checkbox"]:focus{
+	box-shadow: none;
+	border: none;
+}
+.order_summary_custom{
+	padding: 0px 10px;
+}
+.order_summary_custom li{
+	margin-bottom: 15px;
+}
+.order_summary_table th,
+.order_summary_table th:first-child,
+.order_summary_table th:last-child,
+.order_summary_table td,
+.order_summary_table td:first-child,
+.order_summary_table td:last-child{
+	padding: 10px !important;
+}
+/* Media Queries */
+@media(max-width: 1199px) {
+	.ncm_cart_table table{
+		width: auto;
+	}
+}
+@media(min-width: 992px) and (max-width: 1024px) {
+	.ncm_main_content{
+		overflow-x: hidden;
+	}
+	.ncm_cart_table table{
+		width: auto;
+	}
+	.entry-content{
+		padding: 0px 20px 30px !important;
+	}
+	.entry-content h3{
+		margin-top: 15px !important;
+	}
+	.entry-title{
+		margin-bottom: 15px !important;
+	}
+	.entry-header{		
+		padding: 0px 20px !important;
+	}
+}
+@media(max-width: 991px) {
+	.price small{
+		font-size: 100%;
+	}
+	.ncm_date h6.product-price{
+		margin: 10px 0px 25px;
+		padding: 0px;
+	}
+	.ncm_main_content{
+		overflow-x: hidden;
+	}
+	.ncm_cart_table table,
+	.checkout_table_custom table{
+		width: auto;
+	}
+	.entry-content{
+		padding: 0px 20px 30px !important;
+	}
+	.entry-content h3{
+		margin-top: 15px !important;
+	}
+	.entry-title{
+		margin-bottom: 15px !important;
+	}
+	.entry-header{		
+		padding: 0px 20px !important;
+	}
+}
+@media(max-width: 767px) {
+	.narnoo_product .narnoo_product_gallery,
+	.narnoo_product .summary{
+		width: 100%;
+	}
+	.narnoo_product .ncm-tabs{
+		margin-top: 0px;
+	}
+	.narnoo_product .ncm-tabs ul.ncm-tabs{
+		margin: 0px;
+	}
+	.narnoo_product .ncm-tabs ul.ncm-tabs li.ncm-tab{
+		display: block;
+		text-align: center;
+	}
+	.narnoo_product .ncm-tabs ul.ncm-tabs li.ncm-tab.active, 
+	.narnoo_product .ncm-tabs ul.ncm-tabs li.ncm-tab:hover{
+		background: #222;
+		color: #fff;
+		border-bottom: 1px solid #222;
+	}
+	.narnoo_product .ncm-tabs ul.ncm-tabs li.ncm-tab.active a, 
+	.narnoo_product .ncm-tabs ul.ncm-tabs li.ncm-tab:hover a{
+		color: #fff;
+	}
+	.ncm-tab-content{
+		padding: 15px;
+		text-align: center;
+	}
+	.entry-summary h3{
+		margin-top: 15px !important; 
+		margin-bottom: 15px !important; 
+	}
+	.ncm-date{
+		text-align: center;
+	}
+	.btn.btn-info.btn-lg{
+		font-size: 14px;
+		padding: 6px 12px;
+	}
+	.ncm_price_model{
+		padding-left: 5px;
+		padding-right: 5px;
+	}
+	.modal-header .close{
+		font-size: 35px;
+		margin-top: -10px;
+	}
+	.entry-content{
+		width: auto !important;
+		float: none !important;
+		padding-left: 15px !important;
+		padding-right: 15px !important;
+	}
+	.ncm_field_passenger{
+		margin: 30px 0px;
+	}
+	table.ncm_table_passenger {
+		width: auto !important;
+	}
+	.ncm_table_passenger tr input {
+		width: 300px;
+	}
+	.ncm_cart_shop_btns{
+		text-align: center;
+		padding: 10px 0px;
+	}
+	.wrapper-form-custom input[type="checkbox"] {
+		display: inline-block;
+		width: 10%;		
+	}
+}

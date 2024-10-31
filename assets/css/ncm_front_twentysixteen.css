@@ -1,0 +1,435 @@
+/*.content-area{
+
+	width: 100% !important;
+
+	margin-right: 0px !important;
+
+}
+
+.narnoo_product{
+
+	width: 70% !important;
+
+	float: left;
+
+	padding: 0px 15px;
+
+}
+
+.sidebar{
+
+	float: left;    
+
+    padding: 0px 15px !important;
+
+    margin-left: 0px !important;
+
+    width: 30%;
+
+    padding: 0px 15px;
+
+}*/
+
+
+.ncm_img_wrapper {
+    height: 115px;position: relative; overflow:hidden;
+}
+
+.ncm_img_wrapper img{
+    position: absolute;
+    top:-100%; left:0; right: 0; bottom:-100%;
+    margin: auto;
+}
+
+.ncm_product_listing_link{
+    height: 55px;
+    margin-top: 0px !important;
+}
+
+.nrm-pagination{
+    width: 100%;
+    display: inline-block;
+    text-align: center;
+}
+
+#secondary{	
+
+	padding-top: 30px;
+
+}
+
+.widget input[type="search"].search-field{
+
+	width: 100% !important;
+
+	position: relative;
+
+}
+
+.search-form label{
+
+	margin-bottom: 0px;
+
+	display: block;
+
+}
+
+.hide-bullets{
+
+	margin-left: 0px;
+
+	margin-top: 10px;
+
+}
+
+.single_add_to_cart_button,
+
+.single_add_to_cart_button:focus,
+
+.single_add_to_cart_button:hover,
+
+.single_add_to_cart_button:active,
+
+.single_add_to_cart_button:visited{
+
+	padding-right: 35px !important;
+
+}
+
+.ncm_date h6.product-price{
+
+	margin: 10px 0px 25px !important;
+
+	padding: 0px;
+
+}
+
+.label-col,
+
+.ncm_cart_price_custom{
+
+	margin: 10px 0px;
+
+}
+
+.ncm_cart_shop_btns .btn{
+
+	margin: 10px 5px;
+
+}
+
+.ncm_field_passenger{
+
+	margin: 10px 0px;
+
+}
+
+.site-footer{
+
+	border-top: 2px solid #ccc;
+
+}
+
+.field-wrapper-50 label {
+
+	display: block !important;
+
+	text-align: center;
+
+}
+
+.field-wrapper-50 label input[type="checkbox"]{
+
+	box-shadow: none;
+
+	outline: none;
+
+	border: none;
+
+}
+
+.order_summary_custom{
+
+	padding: 0px 10px;
+
+}
+
+.order_summary_custom li{
+
+	margin-bottom: 15px;
+
+}
+
+.order_summary_table{
+
+    word-wrap: normal;
+
+    width: auto;
+
+}
+
+.order_summary_table th,
+
+.order_summary_table th:first-child,
+
+.order_summary_table th:last-child,
+
+.order_summary_table td,
+
+.order_summary_table td:first-child,
+
+.order_summary_table td:last-child{
+
+	padding: 10px !important;
+
+}
+
+/* Media Queries */
+
+@media (min-width: 1200px) {
+
+	.site-content{
+
+		padding-bottom: 2em !important;
+
+	}
+
+	.site-footer{
+
+		padding: 2em 4.5455% 2em !important;
+
+	}
+
+}
+
+@media(max-width: 1199px){
+
+	.site-footer{
+
+		padding: 1em !important;
+
+	}
+
+}
+
+@media (max-width: 991px){
+
+    .search-submit {
+
+        top: auto;
+
+    }
+
+	.site-main{	
+
+		margin-bottom: 0px !important;
+
+	}
+
+	.content-area{
+
+		margin-right: 0px !important;
+
+		width: 100% !important;
+
+	}
+
+	#secondary{
+
+		width: 100%;
+
+		padding-right: 30px;
+
+		padding-left: 30px;
+
+		margin-left: 0px;
+
+		margin-bottom: 30px;
+
+	}
+
+	.widget{
+
+		margin-bottom: 30px !important;
+
+	}
+
+	.widget .widget-title{
+
+		margin: 0px 0px 15px !important;
+
+	}
+
+	.ncm_main_content{
+
+		overflow-x: hidden;
+
+	}
+
+	.ncm_cart_table table,
+
+	.checkout_table_custom table{
+
+		width: auto;
+
+	}
+
+	.entry-content{
+
+		margin-left: 30px !important;
+
+		margin-right: 30px !important;
+
+	}
+
+	.ncm_field_passenger{
+
+		margin: 30px 0px;
+
+	}	
+
+	.inner-box {
+
+		margin-top: 30px;
+
+	}
+
+}
+
+@media(max-width: 767px) {
+
+	.narnoo_product .narnoo_product_gallery,
+
+	.narnoo_product .summary{
+
+		width: 100%;
+
+	}
+
+	.narnoo_product .ncm-tabs{
+
+		margin-top: 0px;
+
+		margin-left: 0px;
+
+		padding: 0px 15px;
+
+	}
+
+	.narnoo_product .ncm-tabs ul.ncm-tabs{
+
+		padding: 0px;
+
+	}
+
+	.narnoo_product .ncm-tabs ul.ncm-tabs li.ncm-tab{
+
+		display: block;
+
+		text-align: center;
+
+	}
+
+	.narnoo_product .ncm-tabs ul.ncm-tabs li.ncm-tab.active, 
+
+	.narnoo_product .ncm-tabs ul.ncm-tabs li.ncm-tab:hover{
+
+		background: #222;
+
+		color: #fff;
+
+		border-bottom: 1px solid #222;
+
+	}
+
+	.narnoo_product .ncm-tabs ul.ncm-tabs li.ncm-tab.active a, 
+
+	.narnoo_product .ncm-tabs ul.ncm-tabs li.ncm-tab:hover a{
+
+		color: #fff;
+
+	}
+
+	#secondary{
+
+		width: 100%;
+
+		padding-top: 30px;
+
+		padding-left: 15px;
+
+		padding-right: 15px;
+
+		margin-top: 30px;
+
+	}
+
+	.widget{
+
+		margin-bottom: 15px !important;
+
+	}
+
+	.widget .widget-title{
+
+		margin: 0px 0px 5px !important;
+
+	}
+
+	.entry-content{
+
+		margin-left: 15px !important;
+
+		margin-right: 15px !important;
+
+	}
+
+	.ncm_cart_shop_btns{
+
+		text-align: center;
+
+		padding: 10px 0px;
+
+	}
+
+	table.ncm_table_passenger {
+
+		width: auto !important;
+
+	}
+
+	.ncm_table_passenger tr input {
+
+		width: 300px;
+
+	}
+
+	.narnoo_product{
+
+		width: 100% !important;
+
+	}
+
+	.site-main{
+
+		margin-left: 0px !important;
+
+		margin-right: 0px !important;
+
+	}
+
+	.ncm-date{
+
+		text-align: center;
+
+	}
+
+	.wrapper-form-custom input[type="checkbox"] {
+
+		display: inline-block;
+
+		width: 10%;		
+
+	}
+
+}
